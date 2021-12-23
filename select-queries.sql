@@ -21,7 +21,7 @@ SELECT SetName, ReleaseYear FROM MusSets
 SELECT id, MusName FROM Musician
                     WHERE MusName NOT LIKE '%% %%';
 
-/*название треков, которые содержат слово "you" (взамен "my"/"My");*/
+/*название треков, которые содержат слово "you" или "Ты" (взамен "my"/"My");*/
 SELECT id, TrackName FROM Tracks
-                    WHERE TrackName ILIKE '%%You%%';
+                    WHERE TrackName ILIKE '%%You%%' OR '%%Ты%%';
 
