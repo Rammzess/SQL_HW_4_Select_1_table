@@ -71,7 +71,8 @@ INSERT INTO Tracks(ID, TrackName, AlbumID, TrackDuration) VALUES
                     (12, '22 Acacia Avenue', 8, 06.34),
                     (13, 'Heart Like a Wheel', 6, 06.35),
                     (14, 'Anarchy in the UK', 4, 03.31),
-                    (15, 'Welcome Home (Sanitarium)', 2, 06.27);
+                    (15, 'Welcome Home (Sanitarium)', 2, 06.27)
+					(16, 'Battery', 2, 05.13);
 
 INSERT INTO MusSets(ID, SetName, ReleaseYear) VALUES
                     (1, 'Rolling Stone top 100 songs', 1997),
